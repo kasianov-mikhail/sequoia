@@ -20,5 +20,5 @@ jobs:
         with:
           spm-package: .
           scheme: Sequoia
-          destination: platform=iOS
+          destination: platform=iOS Simulator,name=iPhone 16
           action: test
